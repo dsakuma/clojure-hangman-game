@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  clojure:
+    build:
+      context: .
+    image: clojure
+    volumes: 
+      - .volumes/maven:/root/.m2
+      - .:/app
+    working_dir: /app
