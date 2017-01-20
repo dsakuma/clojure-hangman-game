@@ -1,2 +1,3 @@
 .volumes
 .lein-repl-history
+target/uberjar/*
