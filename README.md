@@ -1,36 +1,11 @@
 # forca
 
-FIXME: description
-
-## Installation
-
-Download from http://example.com/FIXME.
+Clojure course
 
 ## Usage
 
-FIXME: explanation
+Running:
 
-    $ java -jar forca-0.1.0-standalone.jar [args]
+     docker run -it --rm -v $PWD/.volumes/maven:/root/.m2 -v $PWD:/app -w /app clojure lein repl
 
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2016 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+     docker-compose run clojure lein new app forca .
