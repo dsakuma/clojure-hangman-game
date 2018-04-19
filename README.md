@@ -1,4 +1,4 @@
-# forca
+# Hangman Game
 
 Clojure course
 
